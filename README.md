@@ -1,16 +1,35 @@
-# React + Vite
+# Minimistic Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly-curated, minimalist editorial landing page crafted for modern digital architecture studios. 
 
-Currently, two official plugins are available:
+![Minimistic Preview](public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+This project was constructed with an intentional focus on **Minimalist Aesthetics**, utilizing Stark Whites, Deep Charcoals, Playfair Display headers, and soft floating glassmorphism. It uses subtle GSAP micro-interactions and scroll pinning to emphasize narrative pacing over noise.
 
-## React Compiler
+## Tech Stack
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS
+- **Animation Engine:** GSAP (ScrollTrigger)
+- **Icons:** Lucide React
+- **Typography:** Playfair Display (Headers), Inter (Body)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the development server:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Structure
+- `src/components/Hero.jsx`: Intro view with scrolling typography.
+- `src/components/Features.jsx`: Component showcase with tracking macro-interactions.
+- `src/components/Philosophy.jsx`: Deep-contrast thesis statement.
+- `src/components/Protocol.jsx`: Stacking horizontal scroll cards.
+- `src/components/Membership.jsx`: Retainer pricing structures.
+- `src/components/Footer.jsx`: End cap contact routing.
